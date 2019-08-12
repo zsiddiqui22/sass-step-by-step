@@ -1,0 +1,38 @@
+@import 'bootstrap';
+
+// Functions
+@import 'functions/color',
+        'functions/fontSizes',
+        'functions/fontFamily';
+
+// Variables
+@import 'variables';
+
+// Mixins
+@import 'mixins/arrow',
+        'mixins/rotate',
+        'mixins/scale',
+        'mixins/skew',
+        'mixins/gradient',
+        'mixins/translate',
+        'mixins/perspective',        
+        'mixins/box-sizing',
+        'mixins/transition',
+        'mixins/transform',
+        'mixins/transform-style',
+        'mixins/transform-origin',
+        'mixins/backface-visibility',
+        
+        // MEDIA QUERIES
+        'mixins/mediaquery-desktop',
+        'mixins/mediaquery-tablet',
+        'mixins/mediaquery-mobile';
+        
+// Components
+@import 'components/header',
+        'components/footer';
+
+
+// Pages
+@import 'pages/home';
+
