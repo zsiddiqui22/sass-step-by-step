@@ -1,9 +1,23 @@
+$color-primary: #003c5c;
+$color-primary-text: #fff;
+$color-secondry: #f02242;
+
 $color:(
-    primary: #e52e40,
+    primary: #003c5c,
+    primary-light: lighten($color-primary,50%),
     primary-text: #fff,
-    bg: #efefef,
+    secondry: #f02242
+);
+
+$color-light:(
+    primary: tint($color-secondry, 4%)
 );
 
 
-$brand-primary: color(primary);
-$brand-primary-text: color(primary-text);
+$font:(
+    xs: 11px,
+    sm: 12px,
+    nr: 14px,
+    lg: 30px,
+    xlg: 36px,
+)

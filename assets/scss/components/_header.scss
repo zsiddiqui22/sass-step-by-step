@@ -1,35 +1,27 @@
-
 .main-header{
-    background-color: #fff;
 
-    .logo img {
+    .logo img{
         max-width: 100%;
-        @include tablet{
-            max-width: 200px;
-            display: table;
-            margin: 15px auto 0;
-        }
-        @include mobile{
-            max-width: 200px;
-            display: table;
-            margin: 15px auto 0;
-        }
     }
 
-    .navbar-default {
-        background: none;
+    .navbar-default{
+        background-color: transparent;
         border: none;
+        margin-top: 30px;
     }
 
-    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
-    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-        background-color: color(primary);
-        color: color(primary-text);
+    .navbar-default .navbar-nav > .active > a{
+        background-color: lighten($color-secondry, 10%);
+        color: $color-primary-text;
     }
 
-    .main-menu .navbar {
-        margin: 30px 0px;
+    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .open > a, 
+    .navbar-default .navbar-nav > .open > a:hover, 
+    .navbar-default .navbar-nav > .open > a:focus{
+        background-color: $color-secondry;
+        color: $color-primary-text;
     }
-}// .main-header
 
-
+}//main-header
